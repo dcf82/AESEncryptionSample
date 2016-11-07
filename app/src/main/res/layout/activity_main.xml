@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/margin_base"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/textToCalculate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Write text to Encrypt"
+        android:singleLine="true"/>
+
+    <TextView
+        android:id="@+id/textEncrypted"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_base"/>
+
+    <TextView
+        android:id="@+id/textDecrypted"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_base"/>
+
+    <Button
+        android:id="@+id/calculate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Calculate"
+        android:layout_marginTop="@dimen/margin_base"
+        android:layout_gravity="center_horizontal"
+        android:onClick="onClick"/>
+
+</LinearLayout>
